@@ -32,8 +32,10 @@ public class MainOO {
 				{GRAMA, GRAMA, GRAMA, GRAMA, GRAMA, MACA, GRAMA, GRAMA},
 				{GRAMA, PERSONAGEM, GRAMA, GRAMA, GRAMA, GRAMA, GRAMA, GRAMA},
 		};
-
+		
 		TelaInicialOO tela2 = new TelaInicialOO(disposicaoInicial2);
+		
+		tela2.alterarElemento(2, 3, PERSONAGEM);
 	}
 
 }
